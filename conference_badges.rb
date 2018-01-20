@@ -17,6 +17,6 @@ name.collect do |name|
 end
 end
 
-def printer
+def printer(name)
   puts batch_badge_creator
 end
