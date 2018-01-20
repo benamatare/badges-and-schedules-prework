@@ -6,7 +6,8 @@ end
 
 
 def batch_badge_creator name_array
-  return name_array.map! {|i| "Hello, my name is #{i}."}
+  return name_array.collect do |name|
+    badge_maker(name)
 end
 
 def assign_rooms name
