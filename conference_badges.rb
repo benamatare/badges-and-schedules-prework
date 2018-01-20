@@ -10,6 +10,5 @@ def batch_badge_creator name_array
 end
 
 def assign_rooms name
-  room_number = [1,2,3,4,5,6,7]
-  return name.map! {|i| "Hello, #{i}! You'll be assigned to room room_number!"}
+  return name.map! {|value,index| "Hello, #{value}! You'll be assigned to room #{index} !"}
 end
