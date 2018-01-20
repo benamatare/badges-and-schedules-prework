@@ -11,6 +11,6 @@ end
 
 def assign_rooms name
 
-return name.each_with_index {|value index| "Hello, #{value}! You'll be assigned #{index}!"}
+return name.each_with_index {|value index| "Hello, #{value}! You'll be assigned to room #{index}!"}
  #name.map! {|i| "Hello, #{i}!"}name.map! {|i| "You'll be assigned to room #{i}!"}
 end
