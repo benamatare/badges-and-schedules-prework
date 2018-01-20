@@ -6,6 +6,5 @@ end
 
 
 def batch_badge_creator name_array
-  return name_array
+  return name_array.map! "Hello, my name is #{i}."
 end
-  
