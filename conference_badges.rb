@@ -11,6 +11,6 @@ end
 
 def assign_rooms name
 
-return name.map! {|i| "Hello, #{i}!"} +
-return name.map! {|i| "You'll be assigned to room #{i}!"}
+ name.map! {|i| "Hello, #{i}!"} +
+ name.map! {|i| "You'll be assigned to room #{i}!"}
 end
