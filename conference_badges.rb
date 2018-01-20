@@ -10,5 +10,9 @@ def batch_badge_creator name_array
 end
 
 def assign_rooms name
-  return name.map!.each_with_index {|value, index+1| "Hello, #{value}! You'll be assigned to room #{index}!"}
+rooms = 0
+name.collect do |name|
+  rooms+=1
+  "Hello, #{name}! You'll be assigned to room #{room}!"
+end
 end
