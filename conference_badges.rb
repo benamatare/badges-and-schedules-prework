@@ -18,10 +18,10 @@ end
 end
 
 def printer(name)
-   batch_badge_creator(name).each do |value|
+  batch_badge_creator(name).each do |value|
      puts value
+  end
+  assign_rooms(name).each do |value|
+     puts value
+  end
 end
-   assign_rooms(name).each do |value|
-     puts value
-   end
- end
