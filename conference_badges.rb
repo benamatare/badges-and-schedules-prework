@@ -9,6 +9,7 @@ def batch_badge_creator name_array
   return name_array.collect do |name|
     badge_maker(name)
 end
+end
 
 def assign_rooms name
 rooms = 0
